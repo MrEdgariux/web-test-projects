@@ -8,11 +8,6 @@
 </head>
 <body>
     <?php
-    $servername = "116.202.134.139";
-    $username = "saugykla_dataDa";
-    $password = "(;[D,%n$5Skx";
-    $dbname = "saugykla_testWebDB";
-    
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
